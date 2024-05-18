@@ -1,0 +1,21 @@
+{
+  "name": "hapi-js-study",
+  "version": "1.0.0",
+  "description": "this is a hapi.js study project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "arjun",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "handlebars": "^4.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
